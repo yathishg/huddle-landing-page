@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 40px 60px;
+  background-image: url(images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image1 {
+  max-width: 100%;
+  float: left;
+  padding-right: 40px;
+}
+.button {
+  padding: 20px 60px 20px 60px;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+}
+.button:hover {
+  background-color: hsl(300, 69%, 71%);
+}
+.bottom {
+  float: right;
+}
+a {
+  text-decoration: none;
+  word-spacing: 10px;
+}
